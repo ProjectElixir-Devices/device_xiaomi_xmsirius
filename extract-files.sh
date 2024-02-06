@@ -8,6 +8,10 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib/libarcsoft_beautyshot.so \
+        | vendor/lib/libarcsoft_dualcam_optical_zoom_control.so)
+            "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+            ;;
         vendor/lib/hw/camera.qcom.so) ;&
         vendor/lib64/libsensorcal.so) ;&
         vendor/lib64/sensors.ssc.so)
