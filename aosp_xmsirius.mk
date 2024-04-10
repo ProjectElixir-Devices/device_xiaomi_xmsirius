@@ -17,6 +17,9 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 # Aperture Camera
 TARGET_BUILD_APERTURE_CAMERA := true
 
+# Pixel Launcher
+EXCLUDE_LAWNCHAIR := true
+
 # Inherit from grus device
 $(call inherit-product, device/xiaomi/xmsirius/device.mk)
 
