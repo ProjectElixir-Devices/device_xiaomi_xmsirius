@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xmsirius.mk
+    $(LOCAL_DIR)/aosp_xmsirius.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_xmsirius-user \
-    lineage_xmsirius-userdebug \
-    lineage_xmsirius-eng
+    aosp_xmsirius-user \
+    aosp_xmsirius-userdebug \
+    aosp_xmsirius-eng
