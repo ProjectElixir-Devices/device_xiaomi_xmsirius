@@ -14,6 +14,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Elixir stuff
 ELIXIR_BUILD_TYPE := OFFICIAL
 
+# Aperture Camera
+TARGET_BUILD_APERTURE_CAMERA := true
+
 # Inherit from grus device
 $(call inherit-product, device/xiaomi/xmsirius/device.mk)
 
