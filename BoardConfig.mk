@@ -11,6 +11,9 @@ DEVICE_PATH := device/xiaomi/xmsirius
 
 BUILD_BROKEN_DUP_RULES := true
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := sirius,xmsirius
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
