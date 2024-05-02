@@ -45,7 +45,7 @@ vendor/lib/libaudioroute_ext.so
 
 # Camera
 vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/hw/com.qti.chi.override.so|1fca0e29b36a0cb218eeb02278db173ff9e3c3ad
 vendor/lib/libFaceGrade.so
 vendor/lib/libSNPE.so
 vendor/lib/libXMFD_AgeGender.so
